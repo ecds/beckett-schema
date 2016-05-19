@@ -1,0 +1,23 @@
+datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
+
+start = element letter {metadata, content}
+
+metadata = element metadata {
+    element recipient {text},
+    element date {xsd:date}?
+}
+
+content = element content {
+    element person {text}*&
+    element place {text}*&
+    element organization {text}*&
+    element work {
+        attribute play {xsd:boolean}?,
+        attribute performance {xsd:boolean}?,
+        text}*&
+    element other {
+        attribute comment {text}?,
+        text}*&
+    text
+}
+
