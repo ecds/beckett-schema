@@ -1,0 +1,25 @@
+namespace foaf = "http://xmlns.com/foaf/spec/"
+namespace bio = "http://purl.org/vocab/bio/0.1/"
+namespace dc = "http://purl.org/dc/elements/1.1"
+namespace owl = "http://www.w3.org/2002/07/owl#"
+
+start people
+people = 
+    (element foaf:surname {"Beckett"}, 
+    element foaf:familyName {"Samuel"},
+    element bio:birth {
+	element dc:date {"1906"}}
+    element bio:death {
+	element dc:date {"1989"}}
+    element owl:sameAs {"http://viaf.org/viaf/7386737"})
+|
+    (element foaf:surname {"Leventhal"},
+    element foaf:familyName {"A. J. (Abraham Jacob)"},
+    element bio:birth {
+        element dc:date {"1896"}}
+    element bio:death {
+        element dc:date {"1989"}}
+    element owl:sameAs {"http://viaf.org/viaf/7386737"})
+
+   
+    

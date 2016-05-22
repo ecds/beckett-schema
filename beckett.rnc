@@ -8,7 +8,7 @@ metadata = element metadata {
 }
 
 content = element content {
-    element person {text}*&
+    element person  {external "people.rnc"}*&
     element place {text}*&
     element organization {text}*&
     element work {
