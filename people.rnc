@@ -4,7 +4,6 @@ namespace dc = "http://purl.org/dc/elements/1.1"
 namespace owl = "http://www.w3.org/2002/07/owl#"
 
 start people
-# all people
 people = 
     (element foaf:surname {"Beckett"}, 
     element foaf:familyName {"Samuel"},
