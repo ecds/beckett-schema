@@ -8,7 +8,7 @@ metadata = element metadata {
 }
 
 content = element content {
-    #element person  {
+    element person  {
         attribute viaf {text}?,
         attribute comment {text}?,
         text}*&
@@ -21,6 +21,5 @@ content = element content {
     element other {
         attribute comment {text}?,
         text}*&
-    text
-}
+    text}
 
