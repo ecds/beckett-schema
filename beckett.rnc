@@ -9,8 +9,8 @@ metadata = element metadata {
 
 content = element content {
     #element person  {
-        attribute viaf {text}?
-        attribute comment {text}?
+        attribute viaf {text}?,
+        attribute comment {text}?,
         text}*&
     element place {text}*&
     element organization {text}*&
