@@ -1,5 +1,6 @@
 metadata {
     background-color: lightgray;
+    display: block;
 }
 
 person {
@@ -23,6 +24,6 @@ other {
     opacity: 0.5;
 }
 
-tei:p { 
+p { 
   display: block;
 }
