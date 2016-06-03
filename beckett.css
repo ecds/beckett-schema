@@ -1,6 +1,11 @@
 metadata {
-    background-color: lightgray;
+    background-color: d8d8d8;
     display: block;
+    border-style: solid;
+}
+
+metadata place_sent code physical_description leaves_sides postmark repository primary_langugage recipient place_written {
+  display: block;
 }
 
 person {
