@@ -31,64 +31,73 @@ p {
   display: block;
 }
 
-hi[rend="italic"] {
-  font-style: italic;
-}
-
-hi[rend="bold"] {
-  font-style: bold;
-}
-
 /* <hi> rend values */
-span.typewriter{
+
+hi[rend="typewriter"] {
     font-family:monospace;
 }
-span.normalweight{
+
+hi[rend="normalweight"]{
     font-weight:normal;
 }
-span.smallcaps{
+
+
+hi[rend="smallcaps"]{
     font-variant:small-caps;
 }
-span.bold{
+
+hi[rend="bold"]{
     font-weight:bold;
 }
-span.italic{
+
+hi[rend="italic"]{
     font-style:italic;
 }
-span.allcaps{
+
+hi[rend="allcaps"]{
     text-transform:uppercase;
 }
-span.strikethrough{
+
+hi[rend="strikethrough"]{
     text-decoration:line-through;
 }
-span.doublestrikethrough{
+
+hi[rend="doublestrikethrough"]{
     text-decoration:line-through;
 }
-span.underline{
+
+hi[rend="underline"]{
     text-decoration:underline;
 }
-span.wavyunderline{
+
+hi[rend="wavyunderline"]{
     text-decoration-line:underline;
     text-decoration-style:wavy;
 }
-span.doubleunderline{
+
+hi[rend="doubleunderline"]{
     text-decoration:underline;
 }
-span.superscript{
+
+hi[rend="superscript"]{
     vertical-align:super;
     font-size:smaller;
 }
-span.subscript{
+
+hi[rend="subscript"]{
     vertical-align:bottom;
     font-size:smaller;
 }
-span.numberParagraph:before{
+
+hi[rend="numberParagraph"]:before{
     content:"[";
 }
-span.numberParagraph:after{
+
+hi[rend="numberParagraph"]:after{
     content:"] ";
 }
-span.numberParagraph{
+
+hi[rend="numberParagraph"]{
     font-size:smaller;
     color:grey;
 }
