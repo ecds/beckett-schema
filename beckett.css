@@ -31,11 +31,11 @@ p {
   display: block;
 }
 
-hi[rend=italic] {
+hi[rend="italic"] {
   font-style: italic;
 }
 
-hi[rend=bold] {
+hi[rend="bold"] {
   font-style: bold;
 }
 
