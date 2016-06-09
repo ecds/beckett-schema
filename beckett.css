@@ -38,3 +38,61 @@ hi[rend=italic] {
 hi[rend=bold] {
   font-style: bold;
 }
+
+/* <hi> rend values */
+span.typewriter{
+    font-family:monospace;
+}
+span.normalweight{
+    font-weight:normal;
+}
+span.smallcaps{
+    font-variant:small-caps;
+}
+span.bold{
+    font-weight:bold;
+}
+span.italic{
+    font-style:italic;
+}
+span.allcaps{
+    text-transform:uppercase;
+}
+span.strikethrough{
+    text-decoration:line-through;
+}
+span.doublestrikethrough{
+    text-decoration:line-through;
+}
+span.underline{
+    text-decoration:underline;
+}
+span.wavyunderline{
+    text-decoration-line:underline;
+    text-decoration-style:wavy;
+}
+span.doubleunderline{
+    text-decoration:underline;
+}
+span.superscript{
+    vertical-align:super;
+    font-size:smaller;
+}
+span.subscript{
+    vertical-align:bottom;
+    font-size:smaller;
+}
+span.numberParagraph:before{
+    content:"[";
+}
+span.numberParagraph:after{
+    content:"] ";
+}
+span.numberParagraph{
+    font-size:smaller;
+    color:grey;
+}
+
+
+
+
