@@ -4,7 +4,7 @@ start = element letter {metadata, content}
 
 # from Access database
 metadata = element metadata {
-    element code {xsd:date},
+    element code {text},
     element recipient {text}
 }
 
