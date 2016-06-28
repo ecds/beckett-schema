@@ -17,7 +17,10 @@ content = element content {
     element person  {
         attribute viaf {text}?,
         attribute comment {text}?,
-        attribute relationship_to_sb {list{"personal" & "professional"}}?,
+        attribute relationship_to_sb {
+            list{
+            "personal"+,
+            "professional"+}}?,
         text}*&
     element place {text}*&
     element organization {text}*&
