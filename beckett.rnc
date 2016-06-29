@@ -19,8 +19,8 @@ content = element content {
         attribute comment {text}?,
         attribute relationship_to_sb {
             list{
-            "personal"+,
-            "professional"+}}?,
+            "personal"?,
+            "professional"?}}?,
         text}*&
     element place {text}*&
     element organization {text}*&
