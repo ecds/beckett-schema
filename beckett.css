@@ -16,8 +16,7 @@ popupWithMultipleSelection:before {
     edit, '@relationship_to_sb',
     selectionMode, 'multiple',
     color, inherit,
-    rendererSort, 'ascending',
-    );
+    rendererSort, 'ascending');
 }
 
 place {
