@@ -24,8 +24,8 @@ person:after {
     edit, "@relationship_to_sb",
     selectionMode, "multiple",
     resultSeparator, " ",
-    visible, "false");
-   visibility:-oxy-collapse-text;
+    visible, false);
+   visibility: -oxy-collapse-text;
    }
 
    
