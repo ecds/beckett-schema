@@ -23,8 +23,7 @@ person:after {
    content: oxy_popup(
     edit, "@relationship_to_sb",
     selectionMode, "multiple",
-    resultSeparator, " ",
-    width, "5px");
+    resultSeparator, " ");
    visibility: -oxy-collapse-text, hidden;
    background-color: rgba(255,165,0,0.7);
    border: 2px;
