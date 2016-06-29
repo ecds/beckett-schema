@@ -19,11 +19,12 @@ person {
 }
 
 
-person:before {
+person:after {
    content: oxy_popup(
     edit, "@relationship_to_sb",
     selectionMode, "multiple",
     resultSeparator, " ");
+   visibility:-oxy-collapse-text;
    }
 
    
