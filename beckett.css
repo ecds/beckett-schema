@@ -19,20 +19,6 @@ person:before {
     rendererSort, 'ascending',
     );
 }
-person:before {
-    content: " This editor edits an attribute value. The possible values are specified
-    inside the CSS: "
-        oxy_popup(
-            edit, "@comment",
-            values, "value1, value2, value3, value4, value5",
-            labels, "Value no1, Value no2, Value no3, Value no4, Value no5",
-            resultSeparator, "|",
-            columns, 10,
-            selectionMode, "multiple",
-            color, "blue",
-            fontInherit, true);
-    font-size:30px;
-}
 
 place {
     background-color: rgba(0,255,0,0.5); /* green with 50% opacity */
