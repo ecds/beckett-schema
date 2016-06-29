@@ -23,9 +23,9 @@ person:after {
    content: oxy_popup(
     edit, "@relationship_to_sb",
     selectionMode, "multiple",
-    resultSeparator, " ",
-    visible, false);
+    resultSeparator, " ");
    visibility: -oxy-collapse-text;
+   display: none;
    }
 
    
