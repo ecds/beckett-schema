@@ -6,6 +6,14 @@ metadata {
 }
 
 
+code {
+        display: block;
+}
+
+recipient {
+        display: block;
+}
+
 person {
     background-color: rgba(255,165,0,0.7); /* orange with 70% opacity */
 }
@@ -36,80 +44,7 @@ other {
     opacity: 0.5;
 }
 
-p { 
-  display: block;
-}
 
-/* <hi> rend values */
-
-hi[rend="typewriter"] {
-    font-family:monospace;
-}
-
-hi[rend="normalweight"]{
-    font-weight:normal;
-}
-
-
-hi[rend="smallcaps"]{
-    font-variant:small-caps;
-}
-
-hi[rend="bold"]{
-    font-weight:bold;
-}
-
-hi[rend="italic"]{
-    font-style:italic;
-}
-
-hi[rend="allcaps"]{
-    text-transform:uppercase;
-}
-
-hi[rend="strikethrough"]{
-    text-decoration:line-through;
-}
-
-hi[rend="doublestrikethrough"]{
-    text-decoration:line-through;
-}
-
-hi[rend="underline"]{
-    text-decoration:underline;
-}
-
-hi[rend="wavyunderline"]{
-    text-decoration-line:underline;
-    text-decoration-style:wavy;
-}
-
-hi[rend="doubleunderline"]{
-    text-decoration:underline;
-}
-
-hi[rend="superscript"]{
-    vertical-align:super;
-    font-size:smaller;
-}
-
-hi[rend="subscript"]{
-    vertical-align:bottom;
-    font-size:smaller;
-}
-
-hi[rend="numberParagraph"]:before{
-    content:"[";
-}
-
-hi[rend="numberParagraph"]:after{
-    content:"] ";
-}
-
-hi[rend="numberParagraph"]{
-    font-size:smaller;
-    color:grey;
-}
 
 
 

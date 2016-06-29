@@ -10,10 +10,6 @@ metadata = element metadata {
 
 # from Microsoft Word document
 content = element content {
-    element p {text}*&
-    element hi {
-        attribute rend {text}
-    }*&
     element person  {
         attribute viaf {text}?,
         attribute comment {text}?,
