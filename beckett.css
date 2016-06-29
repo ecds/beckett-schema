@@ -20,10 +20,9 @@ person {
 
 
 person:before {
-   content: oxy_checkbox(
+   content: oxy_popup(
     edit, "@relationship_to_sb",
-    values, "true, yes, on",
-    uncheckedValues, "false, no, off",
+    selectionMode, "multiple",
     resultSeparator, " ");
    }
 
