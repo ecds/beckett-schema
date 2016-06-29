@@ -19,14 +19,15 @@ person {
 }
 
 
-popupWithMultipleSelection:before {
-    content: oxy_popup(
-    edit, '@relationship_to_sb',
-    selectionMode, 'multiple',
-    color, inherit,
-    rendererSort, 'ascending');
-}
+person:before {
+   content: oxy_checkbox(
+    edit, "@relationship_to_sb",
+    values, "true, yes, on",
+    uncheckedValues, "false, no, off",
+    resultSeparator, " ");
+   }
 
+   
 place {
     background-color: rgba(0,255,0,0.5); /* green with 50% opacity */
 }
