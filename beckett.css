@@ -23,7 +23,8 @@ person:after {
    content: oxy_popup(
     edit, "@relationship_to_sb",
     selectionMode, "multiple",
-    resultSeparator, " ");
+    resultSeparator, " ",
+    visible, "false");
    visibility:-oxy-collapse-text;
    }
 
