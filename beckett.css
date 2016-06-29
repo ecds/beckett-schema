@@ -11,7 +11,7 @@ person {
 }
 
 
-person:before {
+popupWithMultipleSelection:before {
     content: oxy_popup(
     edit, '@relationship_to_sb',
     selectionMode, 'multiple',
