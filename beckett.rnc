@@ -20,7 +20,7 @@ content = element content {
         attribute relationship_to_sb {
             list{
             "personal"?,
-            "professional"?}+}?,
+            "professional"?}}?,
         text}*&
     element place {text}*&
     element organization {text}*&
