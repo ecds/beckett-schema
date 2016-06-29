@@ -25,7 +25,6 @@ person:after {
     selectionMode, "multiple",
     resultSeparator, " ");
    visibility: -oxy-collapse-text;
-   display: none;
    }
 
    
