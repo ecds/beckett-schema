@@ -1,3 +1,5 @@
+@namespace oxy "http://www.oxygenxml.com/extensions/author";
+
 metadata {
     background-color: #ACACAC;
     display: block;
@@ -30,7 +32,12 @@ person:after {
    overflow: hidden;
    }
 
-   
+oxy|processing-instruction{
+    visibility:-oxy-collapse-text;
+}
+
+
+
 place {
     background-color: rgba(0,255,0,0.5); /* green with 50% opacity */
 }
