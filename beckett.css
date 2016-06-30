@@ -1,5 +1,9 @@
 @namespace oxy "http://www.oxygenxml.com/extensions/author";
 
+letter.tst letter.cls {
+    -oxy-display-tags: none;
+}
+
 metadata {
     background-color: #ACACAC;
     display: block;
@@ -13,6 +17,7 @@ code {
 }
 
 recipient {
+        margin-top: 2px;
         display: block;
 }
 
