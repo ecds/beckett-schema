@@ -27,11 +27,11 @@ person {
 
 
 person:after {
+   visibility: -oxy-collapse-text;
    content: oxy_popup(
     edit, "@relationship_to_sb",
     selectionMode, "multiple",
     resultSeparator, " ");
-   visibility: -oxy-collapse-text;
    }
 
 
