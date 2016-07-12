@@ -27,13 +27,10 @@ person {
 
 
 person:after {
-   content: "ATT"
-   oxy_popup(
-    edit, "@relationship_to_sb",
-    selectionMode, "multiple",
-    resultSeparator, " ");
-    visibility: -oxy-collapse-text;
-    color:green;
+   content: oxy_editor(
+  type, popup,
+  visibility, -oxy-collapse-text,
+);
    }
 
 
