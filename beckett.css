@@ -29,8 +29,7 @@ person {
 person:after {
    content: oxy_editor(
   type, popup,
-  visibility, -oxy-collapse-text,
-);
+  visibility, -oxy-collapse-text);
    }
 
 
