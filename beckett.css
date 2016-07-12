@@ -31,15 +31,10 @@ person:after {
     edit, "@relationship_to_sb",
     selectionMode, "multiple",
     resultSeparator, " ");
-   color: rgba(255,165,0,0.7);
-   background-color: rgba(255,165,0,0.7);
-   max-width: 2ex;
-   overflow: hidden;
+   visbility: -oxy-collapse-text;
    }
 
-oxy|processing-instruction{
-    visibility:-oxy-collapse-text;
-}
+
 
 
 
