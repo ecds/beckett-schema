@@ -32,7 +32,7 @@ person:after {
     edit, "#text",
     selectionMode, "multiple",
     resultSeparator, " ");
-    visibility: -oxy-collapse-text;
+
    }
 
 
