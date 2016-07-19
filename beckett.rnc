@@ -11,16 +11,14 @@ metadata = element metadata {
 # from Microsoft Word document
 content = element content {
     element person  {
-        attribute profile_id list{
-            "nonexistent"?,
-             xsd:int?}}?,
+        attribute profile_id 
+            {list{"nonexistent", xsd:int}}?,
         attribute open_issue {"flag"}?,
         text}*&
-    element organization 
+    element organization { 
         attribute open_issue {"flag"}?,
-    {text}*&
-    element work 
+    text}*&
+    element work { 
         attribute open_issue {"flag"}?,
-    {text}*
+    text}*&
     text}
-
