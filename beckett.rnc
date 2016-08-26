@@ -1,3 +1,5 @@
+# use relaxng namespace to set default values for attributes 
+namespace a = "http://relaxng.org/ns/compatibility/annotations/1.0"
 datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
 
 start = element letter {metadata, content}
@@ -13,7 +15,8 @@ content = element content {
     element person  {
         attribute profile_id {
             "nonexistent" | xsd:int}?,
-        attribute open_issue {"flag"}?,
+         attribute open_issue {"flag"}?,
+         attribute contextual_identification {"yes"}?,
         text}*&
     element organization { 
         attribute open_issue {"flag"}?,
