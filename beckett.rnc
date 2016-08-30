@@ -10,14 +10,17 @@ metadata = element metadata {
     element recipient {text}
 }
 
+person = element person {
+    attribute profile_id {
+        "nonexistent" | xsd:int}?,
+    attribute open_issue {"flag"}?,
+    attribute contextual_identification {"yes"}?,
+    person*,
+    text}
+
 # from Microsoft Word document
 content = element content {
-    element person  {
-        attribute profile_id {
-            "nonexistent" | xsd:int}?,
-         attribute open_issue {"flag"}?,
-         attribute contextual_identification {"yes"}?,
-        text}*&
+    person*&
     element organization { 
         attribute open_issue {"flag"}?,
     text}*&
@@ -25,3 +28,4 @@ content = element content {
         attribute open_issue {"flag"}?,
     text}*&
     text}
+    
