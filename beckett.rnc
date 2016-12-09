@@ -18,12 +18,28 @@ person = element person {
     person*,
     text}
 
+organization = element organization {
+    attribute profile_id {
+        "nonexistent" | xsd:int}?,
+    attribute open_issue {"flag"}?,
+    attribute contextual_identification {"yes"}?,
+    organization*,
+    text}
+
+place = element place {
+    attribute profile_id {
+        "nonexistent" | xsd:int}?,
+    attribute open_issue {"flag"}?,
+    attribute contextual_identification {"yes"}?,
+    place*,
+    text}
+
+
 # from Microsoft Word document
 content = element content {
     person*&
-    element organization { 
-        attribute open_issue {"flag"}?,
-    text}*&
+    organization*&
+    place*&
     element work { 
         attribute open_issue {"flag"}?,
     text}*&
