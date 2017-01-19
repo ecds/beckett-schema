@@ -34,13 +34,6 @@ place = element place {
     place*,
     text}
 
-place = element writing {
-    attribute profile_id {
-        "nonexistent" | xsd:int}?,
-    attribute open_issue {"flag"}?,
-    attribute oblique_reference {"yes"}?,
-    place*,
-    text}
 
 production = element production {
     attribute profile_id {
@@ -48,7 +41,7 @@ production = element production {
     attribute open_issue {"flag"}?,
     attribute oblique_reference {"yes"}?,
     attribute revision {"yes"}?,
-    place*,
+    production*,
     text}
 
 publication = element publication {
@@ -57,7 +50,7 @@ publication = element publication {
     attribute open_issue {"flag"}?,
     attribute oblique_reference {"yes"}?,
     attribute revision {"yes"}?,
-    place*,
+    publication*,
     text}
 
 # from Microsoft Word document

@@ -48,14 +48,20 @@ organization {
     background-color: rgba(255,0,0,0.5); /* red with 50% opacity */ 
 }
 
-work {
+production {
     background-color: rgba(0,255,255,0.5); /* aqua with 50% opacity */
 }
 
-other {
+publication {
     background-color: rgba(102,51,153,0.3); /* purple with 30% opacity */
     opacity: 0.5;
 }
+
+publication {
+    background-color: rgba(1238,232,170,0.5); /* purple with 30% opacity */
+    opacity: 0.5;
+}
+
 
 
 
