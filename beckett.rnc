@@ -34,13 +34,37 @@ place = element place {
     place*,
     text}
 
+production = element production {
+    attribute profile_id {
+        "nonexistent" | xsd:int}?,
+    attribute open_issue {"flag"}?,
+    attribute contextual_identification {"yes"}?,
+    production*,
+    text}
+
+publication = element publication {
+    attribute profile_id {
+        "nonexistent" | xsd:int}?,
+    attribute open_issue {"flag"}?,
+    attribute contextual_identification {"yes"}?,
+    publication*,
+    text}
+
+writing = element writing {
+    attribute profile_id {
+        "nonexistent" | xsd:int}?,
+    attribute open_issue {"flag"}?,
+    attribute contextual_identification {"yes"}?,
+    writing*,
+    text}
+
 
 # from Microsoft Word document
 content = element content {
     person*&
     organization*&
     place*&
-    element work { 
-        attribute open_issue {"flag"}?,
-    text}*&
+    production*&
+    publication*&
+    writing*&
     text}
