@@ -38,7 +38,8 @@ production = element production {
     attribute profile_id {
         "nonexistent" | xsd:int}?,
     attribute open_issue {"flag"}?,
-    attribute contextual_identification {"yes"}?,
+    attribute revision {"yes"}?,
+    attribute oblique_reference {"yes"}?,
     production*,
     text}
 
@@ -46,7 +47,8 @@ publication = element publication {
     attribute profile_id {
         "nonexistent" | xsd:int}?,
     attribute open_issue {"flag"}?,
-    attribute contextual_identification {"yes"}?,
+    attribute revision {"yes"}?,
+    attribute oblique_reference {"yes"}?,
     publication*,
     text}
 
@@ -54,7 +56,7 @@ writing = element writing {
     attribute profile_id {
         "nonexistent" | xsd:int}?,
     attribute open_issue {"flag"}?,
-    attribute contextual_identification {"yes"}?,
+    attribute oblique_reference {"yes"}?,
     writing*,
     text}
 
