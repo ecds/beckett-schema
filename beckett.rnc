@@ -56,8 +56,25 @@ writing = element writing {
     attribute profile_id {
         "nonexistent" | xsd:int}?,
     attribute open_issue {"flag"}?,
+    attribute revision {"yes"}?,
     attribute oblique_reference {"yes"}?,
     writing*,
+    text}
+
+recipient = element recipient {
+    attribute profile_id {
+        "nonexistent" | xsd:int}?,
+    attribute open_issue {"flag"}?,
+    recipient*,
+    text}
+
+directing = element directing {
+    attribute profile_id {
+        "nonexistent" | xsd:int}?,
+    attribute open_issue {"flag"}?,
+    attribute revision {"yes"}?,
+    attribute oblique_reference {"yes"}?,
+    directing*,
     text}
 
 
@@ -69,4 +86,6 @@ content = element content {
     production*&
     publication*&
     writing*&
+    recipient*&
+    directing*&
     text}
