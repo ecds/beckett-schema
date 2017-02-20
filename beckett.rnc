@@ -15,6 +15,7 @@ person = element person {
         "nonexistent" | xsd:int}?,
     attribute open_issue {"flag"}?,
     attribute contextual_identification {"yes"}?,
+    attribute star {"yes"}?,
     person*,
     text}
 
@@ -23,6 +24,7 @@ organization = element organization {
         "nonexistent" | xsd:int}?,
     attribute open_issue {"flag"}?,
     attribute contextual_identification {"yes"}?,
+    attribute star {"yes"}?,
     organization*,
     text}
 
@@ -31,6 +33,7 @@ place = element place {
         "nonexistent" | xsd:int}?,
     attribute open_issue {"flag"}?,
     attribute contextual_identification {"yes"}?,
+    attribute star {"yes"}?,
     place*,
     text}
 
@@ -40,6 +43,7 @@ production = element production {
     attribute open_issue {"flag"}?,
     attribute revision {"yes"}?,
     attribute oblique_reference {"yes"}?,
+    attribute star {"yes"}?,
     production*,
     text}
 
@@ -49,6 +53,7 @@ publication = element publication {
     attribute open_issue {"flag"}?,
     attribute revision {"yes"}?,
     attribute oblique_reference {"yes"}?,
+    attribute star {"yes"}?,
     publication*,
     text}
 
@@ -58,6 +63,7 @@ writing = element writing {
     attribute open_issue {"flag"}?,
     attribute revision {"yes"}?,
     attribute oblique_reference {"yes"}?,
+    attribute star {"yes"}?,
     writing*,
     text}
 
@@ -65,6 +71,7 @@ recipient = element recipient {
     attribute profile_id {
         "nonexistent" | xsd:int}?,
     attribute open_issue {"flag"}?,
+    attribute star {"yes"}?,
     recipient*,
     text}
 
@@ -74,6 +81,7 @@ directing = element directing {
     attribute open_issue {"flag"}?,
     attribute revision {"yes"}?,
     attribute oblique_reference {"yes"}?,
+    attribute star {"yes"}?,
     directing*,
     text}
 
