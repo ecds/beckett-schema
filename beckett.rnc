@@ -85,6 +85,15 @@ directing = element directing {
     directing*,
     text}
 
+translating = element translating {
+    attribute profile_id {
+        "nonexistent" | xsd:int}?,
+    attribute open_issue {"flag"}?,
+    attribute revision {"yes"}?,
+    attribute oblique_reference {"yes"}?,
+    attribute star {"yes"}?,
+    directing*,
+    text}
 
 # from Microsoft Word document
 content = element content {
@@ -96,4 +105,5 @@ content = element content {
     writing*&
     recipient*&
     directing*&
+    translating*&
     text}

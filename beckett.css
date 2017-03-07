@@ -62,6 +62,16 @@ writing {
     opacity: 0.7;
 }
 
+directing {
+    background-color: rgba(255,109,201,0.5); /* pink with 50% opacity */
+    opacity: 0.7;
+}
+
+translating {
+    background-color: rgba(210,180,140,0.5); /* tan with 50% opacity */
+    opacity: 0.7;
+}
+
 
 
 
