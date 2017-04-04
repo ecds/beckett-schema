@@ -92,7 +92,27 @@ translating = element translating {
     attribute revision {"yes"}?,
     attribute oblique_reference {"yes"}?,
     attribute star {"yes"}?,
-    directing*,
+    translating*,
+    text}
+
+reading = element reading {
+    attribute profile_id {
+        "nonexistent" | xsd:int}?,
+    attribute open_issue {"flag"}?,
+    attribute revision {"yes"}?,
+    attribute oblique_reference {"yes"}?,
+    attribute star {"yes"}?,
+    reading*,
+    text}
+
+attendance = element attendance {
+    attribute profile_id {
+        "nonexistent" | xsd:int}?,
+    attribute open_issue {"flag"}?,
+    attribute revision {"yes"}?,
+    attribute oblique_reference {"yes"}?,
+    attribute star {"yes"}?,
+    attendance*,
     text}
 
 # from Microsoft Word document
@@ -106,4 +126,6 @@ content = element content {
     recipient*&
     directing*&
     translating*&
+    reading*&
+    attendance*&
     text}
