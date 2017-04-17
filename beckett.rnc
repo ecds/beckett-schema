@@ -115,6 +115,16 @@ attendance = element attendance {
     attendance*,
     text}
 
+public_events = element public_events {
+    attribute profile_id {
+        "nonexistent" | xsd:int}?,
+    attribute open_issue {"flag"}?,
+    attribute revision {"yes"}?,
+    attribute oblique_reference {"yes"}?,
+    attribute star {"yes"}?,
+    public_events*,
+    text}
+
 # from Microsoft Word document
 content = element content {
     person*&
@@ -128,4 +138,5 @@ content = element content {
     translating*&
     reading*&
     attendance*&
+    public_events*&
     text}
