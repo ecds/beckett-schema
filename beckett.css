@@ -72,6 +72,21 @@ translating {
     opacity: 0.7;
 }
 
+reading {
+    background-color: rgba(255, 195, 160,0.6); /* orange-pink with 50% opacity */
+    opacity: 0.7;
+}
+
+attending {
+    background-color: rgba(153 204 255,0.5); /* sky blue with 50% opacity */
+    opacity: 0.7;
+}
+
+public_events {
+    background-color: rgba(128, 0, 0, 0.5); /* maroon with 50% opacity */
+    opacity: 0.7;
+}
+
 
 
 
