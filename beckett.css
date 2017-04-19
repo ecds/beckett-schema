@@ -78,7 +78,7 @@ reading {
 }
 
 attending {
-    background-color: rgba(153 204 255,0.5); /* sky blue with 50% opacity */
+    background-color: rgba(153, 204, 255,0.5); /* sky blue with 50% opacity */
     opacity: 0.7;
 }
 
