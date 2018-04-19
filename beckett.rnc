@@ -125,6 +125,27 @@ public_events = element public_events {
     public_events*,
     text}
 
+works_of_art = element works_of_art {
+    attribute profile_id {
+        "nonexistent" | xsd:int}?,
+    attribute open_issue {"flag"}?,
+    attribute revision {"yes"}?,
+    attribute oblique_reference {"yes"}?,
+    attribute star {"yes"}?,
+    works_of_art*,
+    text}
+
+music = element music {
+    attribute profile_id {
+        "nonexistent" | xsd:int}?,
+    attribute open_issue {"flag"}?,
+    attribute revision {"yes"}?,
+    attribute oblique_reference {"yes"}?,
+    attribute star {"yes"}?,
+    music*,
+    text}
+
+
 # from Microsoft Word document
 content = element content {
     person*&
@@ -139,4 +160,6 @@ content = element content {
     reading*&
     attendance*&
     public_events*&
+    works_of_art*&
+    music*&
     text}
