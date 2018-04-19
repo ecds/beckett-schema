@@ -89,12 +89,12 @@ public_events {
 
 works_of_art {
     background-color: rgba(255, 0, 255, 0.5); /* magenta with 50% opacity */
-    opacity: 0.7;
+    opacity: 0.4;
 }
 
 music {
     background-color: rgba(0, 128, 128, 0.5); /* teal with 50% opacity */
-    opacity: 0.7;
+    opacity: 0.4;
 }
 
 
